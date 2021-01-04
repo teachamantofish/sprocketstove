@@ -38,7 +38,8 @@ Contents
 
    plans
    materials
-   calc
-   teg
    thermosiphon
+   teg
+   calc
+   testing
    glossary
