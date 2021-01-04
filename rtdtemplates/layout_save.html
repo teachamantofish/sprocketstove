@@ -21,8 +21,8 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset={{ encoding }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-<meta name="author" content="Ben Rogers" />
-<meta name='robots' content='index,follow'/>
+<meta name="author" content="Ben Rogers, Adobe Document Cloud" />
+<meta name='robots' content='noindex,nofollow'/>
 
   {# FAVICON #}
   {% if favicon %}
@@ -108,7 +108,17 @@
   .wy-nav-content {max-width:90%}
   td {font-size:130%}
   </style>
-
+  <script type='text/javascript'>
+         window.marketingtech = {
+               adobe: {
+                   launch: {
+                       property: "global",
+                       environment: "production"
+                   }
+               },
+           };
+        </script>
+  <script src="https://www.adobe.com/marketingtech/main.min.js"></script>
 </head>
 
 <body class="wy-body-for-nav">
@@ -120,11 +130,17 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
 	  
-        <!-- @@@@@@@@@@@@@@@@ Custom @@@@@@@@@@@@@@@@ -->
-        <div class="pagelogo"><img src="_images/logo64.png" class="logo"/></div> 
-        <!-- @@@@@@@@@@@@@@@@ Custom @@@@@@@@@@@@@@@@ -->'
-         <div class="wy-side-nav-search" {% if theme_style_nav_header_background %} style="background: {{theme_style_nav_header_background}}" {% endif %}>
+<!-- @@@@@@@@@@@@@@@@ Custom @@@@@@@@@@@@@@@@ -->
+        <div style="background-color: #F8F8F8;  padding:1em; height:4em;"><img src="../customcss/adobelogo.png" class="logo"/></div> 
+ <!-- @@@@@@@@@@@@@@@@ Custom @@@@@@@@@@@@@@@@ -->
+
+
+
+        <div class="wy-side-nav-search" {% if theme_style_nav_header_background %} style="background: {{theme_style_nav_header_background}}" {% endif %}>
+
+
           {% include "searchbox.html" %}
+
         </div>
 
 
@@ -135,6 +151,7 @@
           {% if logo and theme_logo_only %}
             <a href="{{ pathto(master_doc) }}">
           {% else %}
+
           <a href="{{ pathto(master_doc) }}" class="icon icon-home"> {{ project }}
           {% endif %}
           {% if logo %}
@@ -172,14 +189,15 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
-      
   <!-- @@@@@@@@@@@@@@@@ Custom top bar @@@@@@@@@@@@@@@@ -->
-  <div class="fixedbar">
-    <a href="https://www.bioenergylists.org/stovesdoc/Still/Rocket%20Stove/Principles.html" class="topbarlink">10 Principles</a> 
-    <a href="http://batchrocket.eu/en/" class="topbarlink">Open Source Plans</a>
-    <a href="https://donkey32.proboards.com/" class="topbarlink"> Donkey's RS Forum</a> 
-    <a href="https://permies.com/f/125/rocket-stoves" class="topbarlink">Permies RS Forum</a>
-  </div>
+        <div class="fixedbar"> 
+          <a href="https://git.corp.adobe.com/pages/dc/dc-acrobat-sdk-docs/devnet/" class="topbarlink">DC Developer Resources</a>
+          <a href="https://www.adobe.io/apis/documentcloud/dcsdk/" class="topbarlink">Document Services SDK</a>
+       <a href="https://git.corp.adobe.com/pages/dc/dc-acrobat-sdk-docs/acrobatsdk/" class="topbarlink">Acrobat SDK</a>
+       <a href="https://git.corp.adobe.com/pages/dc/dc-acrobat-sdk-docs/pdflsdk/" class="topbarlink">PDF Library SDK</a>
+       <a href="https://community.adobe.com/t5/acrobat-sdk/bd-p/acrobat-sdk?page=1&sort=latest_replies&filter=all" class="topbarlink">Forum</a> 
+       <a href="mailto:brogers@adobe.com" class="topbarlink">Feedback</a> 
+        </div>
 
 		
       {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
@@ -198,8 +216,7 @@
         {% else %}
         <div class="rst-content">
         {% endif %}
-         {% include "breadcrumbs.html" %}
-
+          {% include "breadcrumbs.html" %}
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
           {%- block document %}
            <div itemprop="articleBody">

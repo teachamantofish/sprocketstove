@@ -1,5 +1,5 @@
 ************************************************
-Resources for Rocket Stove Developers
+Hot Water Heating
 ************************************************
 
 Intro blurb
@@ -10,30 +10,23 @@ TBD: Insert diagram.
 
 
 
-What is this? 
+Designs
 ==========================
 
 Tumeric ipsum salvia migas, tofu taiyaki af celiac 8-bit elit XOXO pork belly commodo. Echo park tote bag schlitz salvia. Cray etsy mixtape, est nulla shaman shabby chic artisan sustainable pop-up fixie non disrupt. Fugiat elit kogi tumblr kitsch slow-carb. Sunt everyday carry air plant synth fixie biodiesel fam. Sriracha fanny pack occaecat disrupt 8-bit commodo brooklyn brunch. Aliquip eu minim prism affogato cornhole, activated charcoal drinking vinegar marfa vaporware.
 
-Contribute
+Thermosiphon systems
 =========================
 
 Tumeric ipsum salvia migas, tofu taiyaki af celiac 8-bit elit XOXO pork belly commodo. Echo park tote bag schlitz salvia. Cray etsy mixtape, est nulla shaman shabby chic artisan sustainable pop-up fixie non disrupt. Fugiat elit kogi tumblr kitsch slow-carb. Sunt everyday carry air plant synth fixie biodiesel fam. Sriracha fanny pack occaecat disrupt 8-bit commodo brooklyn brunch. Aliquip eu minim prism affogato cornhole, activated charcoal drinking vinegar marfa vaporware.
 
-Contact
+Pump systems
 =================
 
 Tumeric ipsum salvia migas, tofu taiyaki af celiac 8-bit elit XOXO pork belly commodo. Echo park tote bag schlitz salvia. Cray etsy mixtape, est nulla shaman shabby chic artisan sustainable pop-up fixie non disrupt. Fugiat elit kogi tumblr kitsch slow-carb. Sunt everyday carry air plant synth fixie biodiesel fam. Sriracha fanny pack occaecat disrupt 8-bit commodo brooklyn brunch. Aliquip eu minim prism affogato cornhole, activated charcoal drinking vinegar marfa vaporware.
 
+Combi systems
+======================
 
-Contents
-===============
-
-.. toctree:: 
-   :maxdepth: 2
-
-   plans
-   materials
-   teg
-   thermosiphon
-   glossary
+Checklist
+=====================

@@ -1,5 +1,4 @@
 
-/* override table width restrictions */
 
 div.shadow {   
    -webkit-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
@@ -17,19 +16,23 @@ img {
 }
 
 .logo {
-   margin:0; 
+   margin:0 0 0 1em; 
    padding:0;
    box-shadow: none;
    border:10px;
 }
 
-body {background: brown;}
+
+.pagelogo {background-color:white;  padding:.5em 0em .2em 6.5em; height:5em; }
+
+body {width:90%}
 
 a.topbarlink {font-weight:bold; padding-right:3em;  font-variant: small-caps; font-size: 90%; color:black;}
 
-.fixedbar {background-color: #F8F8F8; padding:1.2em; margin-top:0;height:4em;position: fixed;width:100%; margin-bottom:2em;}
+.fixedbar {background-color: white; padding:1.2em; margin-top:0;height:5em;position: fixed; margin-bottom:8em;}
 
 
+/* override table width restrictions */
 td > p {font-size:90%;}
 th > p {padding-bottom:0; margin-bottom:0;}
 

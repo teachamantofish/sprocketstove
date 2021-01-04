@@ -21,7 +21,7 @@ html_theme = 'sphinx_rtd_theme'
 # override the default css
 html_context = {
     'css_files': [
-        '../templates/theme_overrides.css',  
+        '_static/css/theme_overrides.css',  
         ],
      }
 
