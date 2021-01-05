@@ -1,17 +1,6 @@
-
-
-div.shadow {   
-   -webkit-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
-   -moz-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
-   box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
-   margin:2em;
-   }
-
 img {
   max-width: 98%;
-   -webkit-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
-   -moz-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
-   box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
   margin: 1em 0 2.5em 1em
 }
 
@@ -22,15 +11,60 @@ img {
    border:10px;
 }
 
+.pagelogo {background-color:white;  padding:.5em 0em .2em 6.5em; height:5em; box-shadow: none;}
 
-.pagelogo {background-color:white;  padding:.5em 0em .2em 6.5em; height:5em; }
+img.headerimage {
+   padding: 0;
+   margin: 0; 
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
+	}
 
-body {width:90%}
+img.navimage {
+   background-color:white;
+   margin-top: 100px;
+   -webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
+}
+
+.wy-nav-content-wrap {background-color: white;}
+
+h2 {
+   background-image: url("../../_images/rocket50.png"); 
+   background-repeat: no-repeat; 
+   background-position: left center; /* set position of each bg image */
+   padding: 10px 50px; /* 92px is the width of my left and right bg images */
+   height: 50px; /* 120px is the height of each bg image */
+   border-bottom: 1px solid darkorange;
+}
+
+
+
+h1  {
+   background-image: url("../../_images/rocket50.png");
+   background-position: left center; /* set position of each bg image */
+   background-repeat: no-repeat; /* set repeat of each bg image */
+   padding: 10px 50px; /* 92px is the width of my left and right bg images */
+   height: 50px; /* 120px is the height of each bg image */
+}
+
+div.shadow {   
+   -webkit-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
+   -moz-box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
+   box-shadow: 4px 4px 8px 0px rgba(50, 50, 50, 0.75);
+   margin:2em;
+   }
+
+
+body {width:90%; background-color: white;}
 
 a.topbarlink {font-weight:bold; padding-right:3em;  font-variant: small-caps; font-size: 90%; color:black;}
 
 .fixedbar {background-color: white; padding:1.2em; margin-top:0;height:5em;position: fixed; margin-bottom:8em;}
 
+.iframe {width: 100%; height: 100%;}
 
 /* override table width restrictions */
 td > p {font-size:90%;}

@@ -2,9 +2,8 @@
 Resources for Rocket Stove Developers
 ************************************************
 
-Intro blurb
+If you're lucky, you're not obsessed. Just download Peter van den Berg's free and `open source batch rocket plans <https://batchrocket.eu/en/>`_ and charge ahead. Nothing to see here. . . just move along and save yourself both time and money. 
 
-TBD: Insert diagram. 
 
 .. image:: images/uc2.gif
 
@@ -37,6 +36,7 @@ Contents
    :maxdepth: 2
 
    plans
+   features
    materials
    thermosiphon
    teg
