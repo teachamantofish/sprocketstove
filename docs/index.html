@@ -44,7 +44,7 @@
   <link rel="stylesheet" href="_static/css/theme_overrides.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Open Source Plans" href="plans.html" /> 
+    <link rel="next" title="Stove Features" href="features.html" /> 
   <style>
   .wy-nav-content {max-width:90%}
   td {font-size:130%}
@@ -96,12 +96,6 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="plans.html">Open Source Plans</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="plans.html#what-is-this">What is this?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plans.html#contribute">Contribute</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plans.html#contact">Contact</a></li>
-</ul>
-</li>
 <li class="toctree-l1"><a class="reference internal" href="features.html">Stove Features</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="features.html#fire-view">Fire view</a></li>
 <li class="toctree-l2"><a class="reference internal" href="features.html#modular-upgradable">Modular, upgradable</a></li>
@@ -111,8 +105,10 @@
 <li class="toctree-l2"><a class="reference internal" href="materials.html#firebox">Firebox</a></li>
 <li class="toctree-l2"><a class="reference internal" href="materials.html#riser">Riser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="materials.html#other">Other</a></li>
+<li class="toctree-l2"><a class="reference internal" href="materials.html#data">Data</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="air.html">Combustion air: Science and Systems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="thermosiphon.html">Hot Water Heating</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="thermosiphon.html#thermosiphon-systems-design">Thermosiphon systems design</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="thermosiphon.html#heat-dumps">Heat dumps</a></li>
@@ -129,6 +125,7 @@
 <li class="toctree-l1"><a class="reference internal" href="teg.html">Electrical Generation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="teg.html#teg-modules">TEG modules</a></li>
 <li class="toctree-l2"><a class="reference internal" href="teg.html#teg-systems">TEG systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="teg.html#gov-t-testing">Gov’t testing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="teg.html#additional-reading">Additional reading</a></li>
 <li class="toctree-l2"><a class="reference internal" href="teg.html#teg-alternatives">TEG alternatives</a></li>
 </ul>
@@ -137,6 +134,26 @@
 <li class="toctree-l1"><a class="reference internal" href="testing.html">Testing</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="testing.html#temperature">Temperature</a></li>
 <li class="toctree-l2"><a class="reference internal" href="testing.html#combustion-efficiency">Combustion efficiency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#fuel-moisture">Fuel moisture</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="codes.html">Codes and Compliance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="codes.html#code-compliance">Code compliance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="codes.html#epa-compliance">EPA compliance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="codes.html#insurance">Insurance</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="plans.html">Open Source Plans</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="plans.html#tested-plans-and-designs">Tested plans and designs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plans.html#space-heaters">Space heaters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plans.html#cookstoves">Cookstoves</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plans.html#untested-plans-and-designs">Untested plans and designs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plans.html#id1">Space heaters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plans.html#id2">Cookstoves</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
@@ -210,7 +227,7 @@
   
   <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
       
-        <a href="plans.html" class="btn btn-neutral float-right" title="Open Source Plans" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="features.html" class="btn btn-neutral float-right" title="Stove Features" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
   </div>
@@ -227,29 +244,34 @@
 <img alt="_images/uc2.gif" src="_images/uc2.gif" />
 <div class="section" id="what-is-this">
 <h2>What is this?<a class="headerlink" href="#what-is-this" title="Permalink to this headline">¶</a></h2>
-<p>Tumeric ipsum salvia migas, tofu taiyaki af celiac 8-bit elit XOXO pork belly commodo. Echo park tote bag schlitz salvia. Cray etsy mixtape, est nulla shaman shabby chic artisan sustainable pop-up fixie non disrupt. Fugiat elit kogi tumblr kitsch slow-carb. Sunt everyday carry air plant synth fixie biodiesel fam. Sriracha fanny pack occaecat disrupt 8-bit commodo brooklyn brunch. Aliquip eu minim prism affogato cornhole, activated charcoal drinking vinegar marfa vaporware.</p>
+<p>While there’s a treasure trove of detail in the community forums and floating around the internet,  complete details or a comprehensive treatment of any topic are at bet elusive, and at worst, impossible to find. Who are the experts? What’s been tested? How does one craft their personal Super Perfect Rocket Stove while adhering to best practices?  Consider the pages here as <em>seed</em> whose value is directly proportional to contributions from dedicated DIY-ers (you). The data-driven pages in particular provide a platform for advancing the technology: For anyone trying to build efficient thermosiphons, utilize fan-driven combustion air, create fluidized bed or downdraft designs and so on, there is very little verified and tested information. Even mundane tasks such as selecting DIY materials or viewing glass is a tedious chore. It should be easy.</p>
+<div class="section" id="goals">
+<h3>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Support DIY development</strong>: help designers make better decisions through faster access to information</p></li>
+<li><p><strong>Promote clean burning technology</strong>: Encourage adoption of efficient biomass combustion devices; save time, money, Earth’s resources</p></li>
+<li><p><strong>Advance the technology</strong>: Despite the amazing advances over the last decade, there’s much more to do: more tested and open source plans, optimized designs, TEG driven systems, tested and save thermosiphon systems, DIY materials, and &lt;<em>insert long list here</em>&gt;.</p></li>
+</ul>
 </div>
-<div class="section" id="what-is-a-rocket-stove">
-<h2>What is a Rocket Stove?<a class="headerlink" href="#what-is-a-rocket-stove" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="contribute">
 <h2>Contribute<a class="headerlink" href="#contribute" title="Permalink to this headline">¶</a></h2>
 <p>Tumeric ipsum salvia migas, tofu taiyaki af celiac 8-bit elit XOXO pork belly commodo. Echo park tote bag schlitz salvia. Cray etsy mixtape, est nulla shaman shabby chic artisan sustainable pop-up fixie non disrupt. Fugiat elit kogi tumblr kitsch slow-carb. Sunt everyday carry air plant synth fixie biodiesel fam. Sriracha fanny pack occaecat disrupt 8-bit commodo brooklyn brunch. Aliquip eu minim prism affogato cornhole, activated charcoal drinking vinegar marfa vaporware.</p>
 </div>
+<div class="section" id="about-the-author">
+<h2>About the author<a class="headerlink" href="#about-the-author" title="Permalink to this headline">¶</a></h2>
+<p>I work at Adobe as a technical writer and information architect. As a closet Pyro and Irredeemable DIY-er, I have the pleasure and torture of believing my Big Ideas are worth pursuing. However, my quest has been challenged by a Jungle of tangled details as well as deserts of scant detail… . internet</p>
+<p>If there’s public participation on these pages, then my role here will simply be that of <em>content manager</em>,  and the user-driven content will evolve organically. I’ve kicked started the effort, but without user-provided data, the effort will likely stall.</p>
+<p>This site cannot and should not replace any forum. The XXX and XXX forums are home to experts, experimenters, and hopeless Rocket Stove dreamers. Go there to ask questions. Come there is you want to add data or contribute to the documents here.</p>
+</div>
 <div class="section" id="contact">
 <h2>Contact<a class="headerlink" href="#contact" title="Permalink to this headline">¶</a></h2>
-<p>Tumeric ipsum salvia migas, tofu taiyaki af celiac 8-bit elit XOXO pork belly commodo. Echo park tote bag schlitz salvia. Cray etsy mixtape, est nulla shaman shabby chic artisan sustainable pop-up fixie non disrupt. Fugiat elit kogi tumblr kitsch slow-carb. Sunt everyday carry air plant synth fixie biodiesel fam. Sriracha fanny pack occaecat disrupt 8-bit commodo brooklyn brunch. Aliquip eu minim prism affogato cornhole, activated charcoal drinking vinegar marfa vaporware.</p>
+<p>Ideas, suggestion, complaint? Email ben (dot) rogers (at) gmail.</p>
 </div>
 <div class="section" id="contents">
 <h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="plans.html">Open Source Plans</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="plans.html#what-is-this">What is this?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plans.html#contribute">Contribute</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plans.html#contact">Contact</a></li>
-</ul>
-</li>
 <li class="toctree-l1"><a class="reference internal" href="features.html">Stove Features</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="features.html#fire-view">Fire view</a></li>
 <li class="toctree-l2"><a class="reference internal" href="features.html#modular-upgradable">Modular, upgradable</a></li>
@@ -259,8 +281,10 @@
 <li class="toctree-l2"><a class="reference internal" href="materials.html#firebox">Firebox</a></li>
 <li class="toctree-l2"><a class="reference internal" href="materials.html#riser">Riser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="materials.html#other">Other</a></li>
+<li class="toctree-l2"><a class="reference internal" href="materials.html#data">Data</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="air.html">Combustion air: Science and Systems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="thermosiphon.html">Hot Water Heating</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="thermosiphon.html#thermosiphon-systems-design">Thermosiphon systems design</a></li>
 <li class="toctree-l2"><a class="reference internal" href="thermosiphon.html#pump-systems">Pump systems</a></li>
@@ -273,6 +297,7 @@
 <li class="toctree-l1"><a class="reference internal" href="teg.html">Electrical Generation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="teg.html#teg-modules">TEG modules</a></li>
 <li class="toctree-l2"><a class="reference internal" href="teg.html#teg-systems">TEG systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="teg.html#gov-t-testing">Gov’t testing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="teg.html#additional-reading">Additional reading</a></li>
 <li class="toctree-l2"><a class="reference internal" href="teg.html#teg-alternatives">TEG alternatives</a></li>
 </ul>
@@ -281,6 +306,18 @@
 <li class="toctree-l1"><a class="reference internal" href="testing.html">Testing</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="testing.html#temperature">Temperature</a></li>
 <li class="toctree-l2"><a class="reference internal" href="testing.html#combustion-efficiency">Combustion efficiency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#fuel-moisture">Fuel moisture</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="codes.html">Codes and Compliance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="codes.html#code-compliance">Code compliance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="codes.html#epa-compliance">EPA compliance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="codes.html#insurance">Insurance</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="plans.html">Open Source Plans</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="plans.html#tested-plans-and-designs">Tested plans and designs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plans.html#untested-plans-and-designs">Untested plans and designs</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
@@ -304,7 +341,7 @@
     <p>
     <img src="_images/dq1.jpg"  class="endimage"/>
       <span class="lastupdated">&nbsp;&nbsp;&nbsp;
-        Last updated on Jan 04, 2021.
+        Last updated on Jan 10, 2021.
         
       </span>
     </p>
