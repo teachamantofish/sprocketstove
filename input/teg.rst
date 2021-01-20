@@ -32,9 +32,12 @@ Additional reading
 TEG alternatives
 =====================
 
-A rocket stove may serve as a heat source for a wide variety of electrical generation techniques, but all them currently fall outside the scope of this document. The DIY community has experimented with the following: 
+.. note:: These topics are out of scope. 
+
+A rocket stove may serve as a heat source for a wide variety of `electricity generation techniques <https://www.bios-bioenergy.at/en/electricity-from-biomass/stirling-engine.html>`_.   The DIY community has experimented with the following: 
 
 * Steam engines
 * Steam turbines
 * Wood gas and generators (search Gasifiers)
 * Stirling engines
+* Gasification

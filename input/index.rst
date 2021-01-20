@@ -9,7 +9,23 @@ If you're lucky, you're not obsessed. Just download Peter van den Berg's free an
 What is this? 
 ==========================
 
-While there's a treasure trove of detail in the community forums and floating around the internet,  complete details or a comprehensive treatment of any topic are at bet elusive, and at worst, impossible to find. Who are the experts? What's been tested? How does one craft their personal Super Perfect Rocket Stove while adhering to best practices?  Consider the pages here as *seeds* whose value is directly proportional to contributions from dedicated DIY-ers (you). The data-driven pages in particular provide a platform for advancing the technology. It's certainly true that research is challenging and and even daunting for anyone looking to use thermosiphons, fan-driven combustion air, fluidized bed, downdraft systems, and so on. Even mundane tasks such as selecting DIY materials or viewing glass is a tedious chore. It should be easy. If it wasn't for Rocketeers like Peter van den Berg and others, we'd be in the Stone Age. But even in this Stove Age, DIY. . . seems like an impossible dream and tilting at windmills. 
+This document is a concise collection of ideas, data, and tools. 
+
+While there's a treasure trove of detail in the community forums and  the internet, a comprehensive treatment of many topics are at best elusive, and at worst, impossible to find. Often, "how", "what", "why" are simply missing. But you have a nice photo. 
+
+How does one craft their personal Super Perfect Rocket Stove using best practices and DIY-friendly materials?  Even mundane tasks such as selecting design, size, materials or viewing glass is a tedious chore. It should be easy. If it wasn't for Rocketeers like Peter van den Berg and others, we'd be in the Stone Age. But even in this Stove Age, DIY rockets can seem like an impossible dream. There's a wide spectrum of possiblities between merely functional and cutting edge. The adventure provides ample opportunities for tilting at the wrong windmill. 
+
+Consider the pages here as *seeds* whose value is directly proportional to contributions from avid Rocketeers. The data-driven pages in particular provide a platform for advancing the technology. With luck, this site might streamline research for those looking to use thermosiphons, fan-driven combustion air, fluidized beds, downdraft systems, and so on. 
+
+What this isn't 
+-------------------------
+
+This document is not: 
+
+* A book
+* A forum 
+* A detailed explanation of things like construction techniques and designs (like you'll find in books and forums). 
+* Selling anything
 
 Goals
 -------------------
@@ -21,16 +37,16 @@ Goals
 Contribute
 =========================
 
-Tumeric ipsum salvia migas, tofu taiyaki af celiac 8-bit elit XOXO pork belly commodo. Echo park tote bag schlitz salvia. Cray etsy mixtape, est nulla shaman shabby chic artisan sustainable pop-up fixie non disrupt. Fugiat elit kogi tumblr kitsch slow-carb. Sunt everyday carry air plant synth fixie biodiesel fam. Sriracha fanny pack occaecat disrupt 8-bit commodo brooklyn brunch. Aliquip eu minim prism affogato cornhole, activated charcoal drinking vinegar marfa vaporware.
+* Phase 1: Send me any info, link, or informational tidbit. I'll incorporate what seems reasonable. 
+* Phase 2: I'll collect contributors and make the content open source to a select few via Github. 
+* Phase 3: TBD
 
 About the author
 =====================
 
-I work at Adobe as a technical writer and information architect. As a closet Pyro and Irredeemable DIY-er, I have the pleasure and torture of believing my Big Ideas are worth pursuing. However, my quest has been challenged by a Jungle of tangled details as well as deserts of scant detail. . . . internet
+I'm a technical writer and information architect at at Adobe (PDF-photoshop Adobe . . . ). As a Closet Pyro and Irredeemable DIY-er, I have the pleasure and pain of believing my Big Ideas are worth pursuing.
 
-If there's public participation on these pages, then my role here will simply be that of *content manager*,  and the user-driven content will evolve organically. I've kicked started the effort, but without user-provided data, the effort will likely stall. 
-
-This site cannot and should not replace any forum. The XXX and XXX forums are home to experts, experimenters, and hopeless Rocket Stove dreamers. Go there to ask questions. Come there is you want to add data or contribute to the documents here. 
+If there's public participation on these pages, then my role here will simply be that of *content manager*,  and the user-driven content will evolve organically. 
 
 Contact
 =================
